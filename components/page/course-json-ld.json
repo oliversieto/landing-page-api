@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_course_json_lds",
+  "info": {
+    "name": "courseJsonLd",
+    "icon": "couch"
+  },
+  "options": {},
+  "attributes": {
+    "courseName": {
+      "type": "string",
+      "required": true
+    },
+    "providerName": {
+      "type": "string",
+      "required": true
+    },
+    "providerUrl": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

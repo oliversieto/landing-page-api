@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_page_json_schemas",
+  "info": {
+    "name": "jsonSchema",
+    "icon": "object-ungroup"
+  },
+  "options": {},
+  "attributes": {
+    "courseJsonLd": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.course-json-ld"
+    },
+    "productJsonLd": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.product-json-ld"
+    }
+  }
+}

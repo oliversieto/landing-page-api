@@ -72,6 +72,16 @@
       "type": "component",
       "repeatable": false,
       "component": "page.section-faq"
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.footer"
+    },
+    "jsonSchema": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.json-schema"
     }
   }
 }

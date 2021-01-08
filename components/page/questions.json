@@ -13,6 +13,10 @@
     "answer": {
       "type": "richtext",
       "required": true
+    },
+    "isExtraQuestion": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

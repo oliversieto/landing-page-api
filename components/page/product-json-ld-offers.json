@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_page_product_json_ld_offers",
+  "info": {
+    "name": "productJsonLdOffers",
+    "icon": "arrow-alt-circle-up"
+  },
+  "options": {},
+  "attributes": {
+    "offers": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

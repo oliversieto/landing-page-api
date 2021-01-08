@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_page_product_json_ld_reviews",
+  "info": {
+    "name": "ProductJsonLdReviews",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "reviews": {
+      "type": "json"
+    }
+  }
+}

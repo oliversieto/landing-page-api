@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_page_product_json_lds",
+  "info": {
+    "name": "productJsonLd",
+    "icon": "project-diagram"
+  },
+  "options": {},
+  "attributes": {
+    "productName": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "brand": {
+      "type": "string",
+      "required": true
+    },
+    "aggregateRating": {
+      "type": "json"
+    },
+    "mpn": {
+      "type": "string",
+      "required": true
+    },
+    "sku": {
+      "type": "string",
+      "required": true
+    },
+    "reviews": {
+      "type": "json",
+      "required": true
+    },
+    "offers": {
+      "type": "json",
+      "required": true
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}
